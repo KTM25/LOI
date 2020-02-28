@@ -1,7 +1,0 @@
-mkdir ./pngIcons
-
-for i in *.svg
-do
-rsvg-convert $i -o `echo $i | sed -e 's/svg$/png/'`
-mv *.png ./pngIcons/
-done

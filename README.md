@@ -19,16 +19,11 @@ brew install rsvg-convert
 ### Installing
 * Clone this repository 
 * Place the script in whatever directory holds the SVG icons
+* chmod +x loi.sh
 * Run:
 
 ```
-source RSConvert.src
-```
-
-after completion, run: 
-
-```
-source batchIcon.src
+loi.sh
 ```
 
 
